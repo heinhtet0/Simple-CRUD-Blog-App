@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Blog Post",
+      "content": "This is the content of my first blog post. I'm excited to start writing!",
+      "author": "Mario",
+      "date": "2026-04-28T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Learning React Router",
+      "content": "React Router is a powerful library for routing in React applications. Here are some tips and tricks.",
+      "author": "Luigi",
+      "date": "2026-04-29T12:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Cooking Italian Food",
+      "content": "Pasta carbonara is my favorite dish to make. Here's how I make it.",
+      "author": "Mario",
+      "date": "2026-04-30T08:00:00.000Z"
+    }
+  ]
+}
