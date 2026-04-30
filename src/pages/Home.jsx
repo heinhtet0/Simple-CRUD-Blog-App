@@ -14,23 +14,43 @@ export default function Home() {
                 </div>
             </div>
 
-            <div style={{ marginTop: '6rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
-                <div style={{ padding: '2rem', background: 'var(--bg-card)', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-color)' }}>
-                    <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🎨</div>
-                    <h3 style={{ marginBottom: '0.5rem' }}>Beautiful Design</h3>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>A minimalist and modern interface that puts content first.</p>
+            <div className="bento-grid" style={{ marginTop: '4rem' }}>
+                <div className="bento-item bento-item-large">
+                    <div className="post-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '3rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>🎨</div>
+                        <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Premium Design</h2>
+                        <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
+                            Experience a meticulously crafted interface designed for clarity and elegance. 
+                            Our minimalist approach ensures your content remains the center of attention, 
+                            while subtle animations provide a delightful user experience.
+                        </p>
+                    </div>
                 </div>
-                <div style={{ padding: '2rem', background: 'var(--bg-card)', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-color)' }}>
-                    <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>⚡</div>
-                    <h3 style={{ marginBottom: '0.5rem' }}>Lightning Fast</h3>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Built with React and Vite for a seamless user experience.</p>
+                <div className="bento-item bento-item-tall">
+                    <div className="post-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>⚡</div>
+                        <h3 style={{ marginBottom: '0.5rem' }}>Speed</h3>
+                        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Optimized for performance with instant loading and smooth transitions.</p>
+                    </div>
                 </div>
-                <div style={{ padding: '2rem', background: 'var(--bg-card)', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-color)' }}>
-                    <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🤝</div>
-                    <h3 style={{ marginBottom: '0.5rem' }}>Community</h3>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Share your ideas and connect with like-minded individuals.</p>
+                <div className="bento-item">
+                    <div className="post-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🤝</div>
+                        <h3 style={{ marginBottom: '0.5rem' }}>Community</h3>
+                        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Connect with creators.</p>
+                    </div>
+                </div>
+                <div className="bento-item bento-item-wide">
+                    <div className="post-card" style={{ height: '100%', display: 'flex', alignItems: 'center', gap: '2rem' }}>
+                        <div style={{ fontSize: '2.5rem' }}>🚀</div>
+                        <div>
+                            <h3 style={{ marginBottom: '0.2rem' }}>Ready to start?</h3>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Join thousands of writers sharing their stories every day.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }

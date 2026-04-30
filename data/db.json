@@ -20,6 +20,41 @@
       "content": "Pasta carbonara is my favorite dish to make. Here's how I make it.",
       "author": "Mario",
       "date": "2026-04-30T08:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "The Future of AI in Web Development",
+      "content": "Artificial Intelligence is transforming how we build applications. From code generation to automated testing, AI is becoming an indispensable tool for modern developers. In this post, we explore the latest trends and tools available.",
+      "author": "Sophia",
+      "date": "2026-05-01T09:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "A Guide to Modern CSS Layouts",
+      "content": "Gone are the days of float-based layouts. With CSS Grid and Flexbox, we can create complex, responsive designs with ease. We'll dive deep into Grid template areas and the power of subgrid.",
+      "author": "Leo",
+      "date": "2026-05-02T14:20:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Top 5 Travel Destinations for 2026",
+      "content": "Ready for your next adventure? We've curated a list of the most breathtaking destinations to visit this year, from the hidden gems of Southeast Asia to the stunning landscapes of Iceland.",
+      "author": "Emma",
+      "date": "2026-05-03T11:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Minimalist Living: How to Declutter",
+      "content": "Minimalism isn't just about having less stuff; it's about making room for what truly matters. Learn practical tips for decluttering your physical space and your digital life.",
+      "author": "Noah",
+      "date": "2026-05-04T16:45:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "Understanding JavaScript Closures",
+      "content": "Closures are one of the most powerful features of JavaScript, but they can be tricky to grasp. We'll break down how they work using simple examples and real-world use cases.",
+      "author": "Sophia",
+      "date": "2026-05-05T10:15:00.000Z"
     }
   ]
 }
