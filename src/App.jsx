@@ -1,5 +1,8 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/home'
+import Home from './pages/Home'
+import Blog from './pages/Blog'
+import About from './pages/About'
+import Contact from './pages/Contact'
 import CreatePost from './pages/Create'
 import PostDetail from './pages/PostDetail'
 import EditPost from './pages/EditPost'
@@ -13,12 +16,18 @@ function App() {
         <Link to="/" className="navbar-brand">✦ Blogscape</Link>
         <div className="navbar-links">
           <Link to="/" className="nav-link">Home</Link>
+          <Link to="/blog" className="nav-link">Blog</Link>
+          <Link to="/about" className="nav-link">About</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
           <Link to="/create" className="nav-link primary">+ New Post</Link>
         </div>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/create" element={<CreatePost />} />
         <Route path="/post/:id" element={<PostDetail />} />
         <Route path="/edit/:id" element={<EditPost />} />
@@ -26,5 +35,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
